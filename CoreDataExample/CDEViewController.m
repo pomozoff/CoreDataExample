@@ -7,6 +7,8 @@
 //
 
 #import "CDEViewController.h"
+#import "CDELeftViewController.h"
+#import "CDECenterViewController.h"
 
 @interface CDEViewController ()
 
@@ -14,16 +16,17 @@
 
 @implementation CDEViewController
 
+#pragma mark - Lifecycle
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    UIViewController *left = [[CDELeftViewController alloc] init];
+    UIViewController *center = [[CDECenterViewController alloc] init];
+    [left.view description];
+    [center.view description];
+    
 }
 
 @end

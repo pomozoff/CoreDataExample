@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		268A4A601922B04D009ADB0B /* CDELeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A4A5F1922B04D009ADB0B /* CDELeftViewController.m */; };
+		268A4A631922B05C009ADB0B /* CDECenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A4A621922B05C009ADB0B /* CDECenterViewController.m */; };
 		26D359FC1922AD1D00216EAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D359FB1922AD1D00216EAC /* Foundation.framework */; };
 		26D359FE1922AD1D00216EAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D359FD1922AD1D00216EAC /* CoreGraphics.framework */; };
 		26D35A001922AD1D00216EAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D359FF1922AD1D00216EAC /* UIKit.framework */; };
@@ -21,6 +23,8 @@
 		26D35A1D1922AD1D00216EAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D359FF1922AD1D00216EAC /* UIKit.framework */; };
 		26D35A251922AD1D00216EAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26D35A231922AD1D00216EAC /* InfoPlist.strings */; };
 		26D35A271922AD1D00216EAC /* CoreDataExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D35A261922AD1D00216EAC /* CoreDataExampleTests.m */; };
+		26D35A321922AD3800216EAC /* CDECoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D35A311922AD3800216EAC /* CDECoreData.m */; };
+		26D35A351922AD8A00216EAC /* CDEManagedDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D35A341922AD8A00216EAC /* CDEManagedDocument.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		268A4A5E1922B04D009ADB0B /* CDELeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDELeftViewController.h; sourceTree = "<group>"; };
+		268A4A5F1922B04D009ADB0B /* CDELeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDELeftViewController.m; sourceTree = "<group>"; };
+		268A4A611922B05C009ADB0B /* CDECenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDECenterViewController.h; sourceTree = "<group>"; };
+		268A4A621922B05C009ADB0B /* CDECenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDECenterViewController.m; sourceTree = "<group>"; };
 		26D359F81922AD1D00216EAC /* CoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D359FB1922AD1D00216EAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		26D359FD1922AD1D00216EAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,10 @@
 		26D35A221922AD1D00216EAC /* CoreDataExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataExampleTests-Info.plist"; sourceTree = "<group>"; };
 		26D35A241922AD1D00216EAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		26D35A261922AD1D00216EAC /* CoreDataExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataExampleTests.m; sourceTree = "<group>"; };
+		26D35A301922AD3800216EAC /* CDECoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDECoreData.h; sourceTree = "<group>"; };
+		26D35A311922AD3800216EAC /* CDECoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDECoreData.m; sourceTree = "<group>"; };
+		26D35A331922AD8A00216EAC /* CDEManagedDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDEManagedDocument.h; sourceTree = "<group>"; };
+		26D35A341922AD8A00216EAC /* CDEManagedDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDEManagedDocument.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,14 @@
 				26D35A0D1922AD1D00216EAC /* Main.storyboard */,
 				26D35A101922AD1D00216EAC /* CDEViewController.h */,
 				26D35A111922AD1D00216EAC /* CDEViewController.m */,
+				268A4A5E1922B04D009ADB0B /* CDELeftViewController.h */,
+				268A4A5F1922B04D009ADB0B /* CDELeftViewController.m */,
+				268A4A611922B05C009ADB0B /* CDECenterViewController.h */,
+				268A4A621922B05C009ADB0B /* CDECenterViewController.m */,
+				26D35A301922AD3800216EAC /* CDECoreData.h */,
+				26D35A311922AD3800216EAC /* CDECoreData.m */,
+				26D35A331922AD8A00216EAC /* CDEManagedDocument.h */,
+				26D35A341922AD8A00216EAC /* CDEManagedDocument.m */,
 				26D35A131922AD1D00216EAC /* Images.xcassets */,
 				26D35A021922AD1D00216EAC /* Supporting Files */,
 			);
@@ -250,7 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268A4A631922B05C009ADB0B /* CDECenterViewController.m in Sources */,
+				26D35A321922AD3800216EAC /* CDECoreData.m in Sources */,
 				26D35A081922AD1D00216EAC /* main.m in Sources */,
+				268A4A601922B04D009ADB0B /* CDELeftViewController.m in Sources */,
+				26D35A351922AD8A00216EAC /* CDEManagedDocument.m in Sources */,
 				26D35A0C1922AD1D00216EAC /* CDEAppDelegate.m in Sources */,
 				26D35A121922AD1D00216EAC /* CDEViewController.m in Sources */,
 			);
@@ -457,6 +481,7 @@
 				26D35A2C1922AD1D00216EAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26D35A2D1922AD1D00216EAC /* Build configuration list for PBXNativeTarget "CoreDataExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +490,7 @@
 				26D35A2F1922AD1D00216EAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
